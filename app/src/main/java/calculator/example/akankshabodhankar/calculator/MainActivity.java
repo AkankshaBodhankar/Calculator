@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         sum = (Button) findViewById(R.id.add_bt);
         sub = (Button) findViewById(R.id.sub_bt);
         mul = (Button) findViewById(R.id.mul_bt);
